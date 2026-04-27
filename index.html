@@ -9,6 +9,19 @@
 	<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 
 	<style>
+		#header .logo {
+	border: none !important;
+	box-shadow: none !important;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#header .logo img {
+	max-width: 80px;
+	height: auto;
+	filter: drop-shadow(0 0 8px rgba(200,169,106,0.4));
+}
 		:root {
 			--black: #050505;
 			--black-soft: #101010;
@@ -213,7 +226,7 @@
 
 		<header id="header">
 			<div class="logo">
-				<span class="icon fa-gem"></span>
+				<img src="images/logo.png" alt="The Eight One Nine Logo" />
 			</div>
 
 			<div class="content">
