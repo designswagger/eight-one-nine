@@ -1140,9 +1140,12 @@ input, select, textarea {
 			-ms-transition-delay: 0.75s;
 			transition-delay: 0.75s;
 			background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("../../images/overlay.png");
-			background-size: auto, 256px 256px;
-			background-position: center, center;
-			background-repeat: no-repeat, repeat;
+			background-size: auto,
+ 256px 256px;
+			background-position: center,
+ center;
+			background-repeat: no-repeat,
+ repeat;
 			z-index: 2;
 		}
 
@@ -1656,3 +1659,67 @@ input, select, textarea {
 		body.is-preload #footer {
 			opacity: 0;
 		}
+
+/* Eight One Nine Merch */
+
+.merch-intro {
+  color: rgba(255, 255, 255, 0.78);
+  font-size: 0.95rem;
+  letter-spacing: 0.02em;
+  margin-bottom: 2rem;
+}
+
+.merch-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.25rem;
+}
+
+.merch-card {
+  display: block;
+  overflow: hidden;
+  text-decoration: none;
+  border: 1px solid rgba(212, 175, 55, 0.35);
+  background: rgba(0, 0, 0, 0.35);
+  border-radius: 0.45rem;
+  transition: transform 0.25s ease, border-color 0.25s ease, background 0.25s ease;
+}
+
+.merch-card:hover {
+  transform: translateY(-4px);
+  border-color: rgba(212, 175, 55, 0.85);
+  background: rgba(212, 175, 55, 0.08);
+}
+
+.merch-card img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  display: block;
+  background: #111;
+}
+
+.merch-info {
+  padding: 1rem;
+}
+
+.merch-info h3 {
+  margin: 0 0 0.35rem 0;
+  color: #d4af37;
+  font-size: 1rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.merch-info span {
+  color: rgba(255, 255, 255, 0.65);
+  font-size: 0.8rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 736px) {
+  .merch-grid {
+    grid-template-columns: 1fr;
+  }
+}
