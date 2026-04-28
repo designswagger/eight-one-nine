@@ -240,7 +240,48 @@
 	height: auto;
 	margin: 0 auto;
 	filter: drop-shadow(0 0 10px rgba(200,169,106,0.35));
-}		
+}	
+/* Drink Menu */
+
+.menu-intro {
+  color: rgba(255,255,255,0.75);
+  margin-bottom: 2rem;
+  font-size: 0.95rem;
+}
+
+.drink-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.drink-item {
+  border-bottom: 1px solid rgba(212,175,55,0.25);
+  padding-bottom: 0.75rem;
+}
+
+.drink-item h3 {
+  margin: 0;
+  font-size: 1rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #d4af37;
+}
+
+.drink-item span {
+  font-size: 0.85rem;
+  color: rgba(255,255,255,0.7);
+  letter-spacing: 0.05em;
+}
+
+.drink-item.highlight h3 {
+  color: #ffffff;
+}
+
+.drink-item.highlight span {
+  color: rgba(212,175,55,0.8);
+}
+		
 	</style>
 </head>
 
@@ -262,7 +303,7 @@
 
 			<nav>
 				<ul>
-					<li><a href="#drinks">Amber's Birthday Menu</a></li>
+					<li><a href="#menu">Drink Menu</a></li>
 					<li><a href="#merch">Merch</a></li>
 					<li><a href="#members">Members</a></li>
 					<li><a href="#about">About</a></li>					
@@ -282,20 +323,47 @@
 				<p>The name comes from our anniversary, which is August 19th. It started out as an elevator pitch to redo a dining room, and ended up being a place where that we share with our closed friend and create new ones.</p>
 			</article>
 
-			<article id="drinks">
-				<h2 class="major">Drinks</h2>
-				<span class="image main"><img src="images/pic02.jpg" alt="Cocktails" /></span>
-				<p class="kicker">Quality Over Everything</p>
-				<h3>Classic pours. Signature cocktails. Always top shelf.</h3>
-				<div class="gold-line"></div>
-				<ul class="feature-list">
-					<li>Ranch Water</li>
-					<li>Old Fashioned</li>
-					<li>Espresso Martini</li>
-					<li>House Shots</li>
-					<li>And More...</li>
-				</ul>
-			</article>
+<article id="menu">
+  <h2 class="major">Drink Menu</h2>
+
+  <p class="menu-intro">
+    Tonight’s menu features a mix of Amber’s favorites and a few Eight One Nine staples.
+  </p>
+
+  <div class="drink-list">
+
+    <div class="drink-item">
+      <h3>Lemon Drop</h3>
+      <span>Tito’s Vodka · Lemon · Triple Sec</span>
+    </div>
+
+    <div class="drink-item">
+      <h3>Grapefruit Martini</h3>
+      <span>Vodka · Grapefruit · Triple Sec · Lime · Honey Syrup</span>
+    </div>
+
+    <div class="drink-item">
+      <h3>Pear Martini</h3>
+      <span>Vodka · St-Germain · Lemon</span>
+    </div>
+
+    <div class="drink-item">
+      <h3>Margarita</h3>
+      <span>Tequila · Lime · Triple Sec</span>
+    </div>
+
+    <div class="drink-item">
+      <h3>Ranch Water</h3>
+      <span>Blanco Tequila · Lime · Topo Chico</span>
+    </div>
+
+    <div class="drink-item highlight">
+      <h3>819 Old Fashioned</h3>
+      <span>Bourbon · Bitters · Maple Syrup</span>
+    </div>
+
+  </div>
+</article>
 
 <article id="merch">
   <h2 class="major">Merch</h2>
