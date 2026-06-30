@@ -108,3 +108,6 @@ button:hover {
   text-transform: uppercase;
   text-align: center;
 }
+body {
+  outline: 10px solid red !important;
+}
