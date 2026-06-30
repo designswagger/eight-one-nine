@@ -1,325 +1,324 @@
 <!DOCTYPE HTML>
-
 <html>
 <head>
-	<title>The Eight One Nine</title>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+<title>The Eight One Nine</title>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 
 <link rel="stylesheet" href="assets/css/main.css" />
-<link rel="stylesheet" href="assets/css/july4.css?v=100" />
-	<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+<link rel="stylesheet" href="assets/css/july4.css?v=1" />
+<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 
-	<style>
-		#header .logo {
-	border: none !important;
-	box-shadow: none !important;
-	display: flex;
-	align-items: center;
-	justify-content: center;
+<style>
+#header .logo {
+border: none !important;
+box-shadow: none !important;
+display: flex;
+align-items: center;
+justify-content: center;
 }
 
 #header .logo img {
-	max-width: 80px;
-	height: auto;
-	filter: drop-shadow(0 0 8px rgba(200,169,106,0.4));
+max-width: 80px;
+height: auto;
+filter: drop-shadow(0 0 8px rgba(200,169,106,0.4));
 }
-		:root {
-			--black: #050505;
-			--black-soft: #101010;
-			--gold: #c8a96a;
-			--gold-bright: #e7c77f;
-			--white: #f4f0e8;
-			--muted: #b7b0a3;
-		}
+:root {
+--black: #050505;
+--black-soft: #101010;
+--gold: #c8a96a;
+--gold-bright: #e7c77f;
+--white: #f4f0e8;
+--muted: #b7b0a3;
+}
 
-		body {
-			background: var(--black) !important;
-			color: var(--white) !important;
-			font-family: "Helvetica Neue", Arial, sans-serif !important;
-			letter-spacing: 0.04em;
-		}
+body {
+background: var(--black) !important;
+color: var(--white) !important;
+font-family: "Helvetica Neue", Arial, sans-serif !important;
+letter-spacing: 0.04em;
+}
 
-		body:before {
-			background: rgba(0, 0, 0, 0.72) !important;
-		}
+body:before {
+background: rgba(0, 0, 0, 0.72) !important;
+}
 
-		#bg:after {
-			background: linear-gradient(135deg, rgba(0,0,0,.96), rgba(20,14,4,.88)) !important;
-		}
+#bg:after {
+background: linear-gradient(135deg, rgba(0,0,0,.96), rgba(20,14,4,.88)) !important;
+}
 
-		#bg:before {
-			background: radial-gradient(circle at center, rgba(200,169,106,.16), rgba(0,0,0,.85)) !important;
-		}
+#bg:before {
+background: radial-gradient(circle at center, rgba(200,169,106,.16), rgba(0,0,0,.85)) !important;
+}
 
-		h1, h2, h3, .major {
-			color: var(--gold) !important;
-			font-family: Georgia, "Times New Roman", serif !important;
-			font-weight: 400 !important;
-			letter-spacing: 0.12em !important;
-			text-transform: uppercase;
-		}
+h1, h2, h3, .major {
+color: var(--gold) !important;
+font-family: Georgia, "Times New Roman", serif !important;
+font-weight: 400 !important;
+letter-spacing: 0.12em !important;
+text-transform: uppercase;
+}
 
-		h1 {
-			font-size: 3.7rem !important;
-			line-height: 1.05;
-			text-shadow: 0 0 24px rgba(200,169,106,.22);
-		}
+h1 {
+font-size: 3.7rem !important;
+line-height: 1.05;
+text-shadow: 0 0 24px rgba(200,169,106,.22);
+}
 
-		h2.major:after {
-			background-color: var(--gold) !important;
-		}
+h2.major:after {
+background-color: var(--gold) !important;
+}
 
-		p, li {
-			color: var(--muted) !important;
-			font-size: 1rem;
-			line-height: 1.8;
-		}
+p, li {
+color: var(--muted) !important;
+font-size: 1rem;
+line-height: 1.8;
+}
 
-		a {
-			color: var(--gold-bright) !important;
-			border-bottom-color: rgba(200,169,106,.35) !important;
-		}
+a {
+color: var(--gold-bright) !important;
+border-bottom-color: rgba(200,169,106,.35) !important;
+}
 
-		#wrapper {
-			background: transparent !important;
-		}
+#wrapper {
+background: transparent !important;
+}
 
-		#header .logo {
-			border-color: var(--gold) !important;
-			color: var(--gold) !important;
-			box-shadow: 0 0 30px rgba(200,169,106,.16);
-		}
+#header .logo {
+border-color: var(--gold) !important;
+color: var(--gold) !important;
+box-shadow: 0 0 30px rgba(200,169,106,.16);
+}
 
-		#header .logo:before {
-			content: "8|9";
-			font-family: Georgia, "Times New Roman", serif;
-			font-size: 1.4rem;
-			color: var(--gold);
-		}
+#header .logo:before {
+content: "8|9";
+font-family: Georgia, "Times New Roman", serif;
+font-size: 1.4rem;
+color: var(--gold);
+}
 
-		#header .logo .icon {
-			display: none;
-		}
+#header .logo .icon {
+display: none;
+}
 
-		#header .content {
-			border-color: rgba(200,169,106,.5) !important;
-			background: rgba(0,0,0,.38);
-			backdrop-filter: blur(4px);
-		}
+#header .content {
+border-color: rgba(200,169,106,.5) !important;
+background: rgba(0,0,0,.38);
+backdrop-filter: blur(4px);
+}
 
-		#header .content .inner {
-			padding: 3rem 2.5rem;
-		}
+#header .content .inner {
+padding: 3rem 2.5rem;
+}
 
-		#header nav ul {
-			border-color: rgba(200,169,106,.5) !important;
-			background: rgba(0,0,0,.35);
-		}
+#header nav ul {
+border-color: rgba(200,169,106,.5) !important;
+background: rgba(0,0,0,.35);
+}
 
-		#header nav ul li {
-			border-color: rgba(200,169,106,.5) !important;
-		}
+#header nav ul li {
+border-color: rgba(200,169,106,.5) !important;
+}
 
-		#header nav ul li a {
-			color: var(--gold) !important;
-			letter-spacing: .18em;
-			font-size: .75rem;
-		}
+#header nav ul li a {
+color: var(--gold) !important;
+letter-spacing: .18em;
+font-size: .75rem;
+}
 
-		#header nav ul li a:hover {
-			background: rgba(200,169,106,.14) !important;
-			color: var(--gold-bright) !important;
-		}
+#header nav ul li a:hover {
+background: rgba(200,169,106,.14) !important;
+color: var(--gold-bright) !important;
+}
 
-		#main article {
-			background: rgba(5,5,5,.92) !important;
-			border: 1px solid rgba(200,169,106,.32);
-			box-shadow: 0 0 55px rgba(0,0,0,.85);
-		}
+#main article {
+background: rgba(5,5,5,.92) !important;
+border: 1px solid rgba(200,169,106,.32);
+box-shadow: 0 0 55px rgba(0,0,0,.85);
+}
 
-		.image.main img {
-			filter: contrast(1.08) saturate(.88) brightness(.82);
-		}
+.image.main img {
+filter: contrast(1.08) saturate(.88) brightness(.82);
+}
 
-		.button,
-		input[type="submit"],
-		input[type="reset"] {
-			border: 1px solid var(--gold) !important;
-			color: var(--gold) !important;
-			background: transparent !important;
-			box-shadow: none !important;
-			letter-spacing: .18em;
-		}
+.button,
+input[type="submit"],
+input[type="reset"] {
+border: 1px solid var(--gold) !important;
+color: var(--gold) !important;
+background: transparent !important;
+box-shadow: none !important;
+letter-spacing: .18em;
+}
 
-		.button:hover,
-		input[type="submit"]:hover,
-		input[type="reset"]:hover {
-			background: var(--gold) !important;
-			color: #050505 !important;
-		}
+.button:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+background: var(--gold) !important;
+color: #050505 !important;
+}
 
-		.button.primary,
-		input[type="submit"].primary {
-			background: var(--gold) !important;
-			color: #050505 !important;
-		}
+.button.primary,
+input[type="submit"].primary {
+background: var(--gold) !important;
+color: #050505 !important;
+}
 
-		ul.alt li {
-			border-top-color: rgba(200,169,106,.22) !important;
-		}
+ul.alt li {
+border-top-color: rgba(200,169,106,.22) !important;
+}
 
-		#footer .copyright {
-			color: rgba(244,240,232,.45) !important;
-		}
+#footer .copyright {
+color: rgba(244,240,232,.45) !important;
+}
 
-		.gold-line {
-			width: 48px;
-			height: 1px;
-			background: var(--gold);
-			margin: 1.25rem 0 1.5rem 0;
-		}
+.gold-line {
+width: 48px;
+height: 1px;
+background: var(--gold);
+margin: 1.25rem 0 1.5rem 0;
+}
 
-		.kicker {
-			color: var(--gold-bright) !important;
-			text-transform: uppercase;
-			letter-spacing: .22em;
-			font-size: .78rem;
-			margin-bottom: .75rem;
-		}
+.kicker {
+color: var(--gold-bright) !important;
+text-transform: uppercase;
+letter-spacing: .22em;
+font-size: .78rem;
+margin-bottom: .75rem;
+}
 
-		.feature-list {
-			list-style: none;
-			padding-left: 0;
-		}
+.feature-list {
+list-style: none;
+padding-left: 0;
+}
 
-		.feature-list li {
-			border-top: 1px solid rgba(200,169,106,.18);
-			padding: .8rem 0;
-		}
+.feature-list li {
+border-top: 1px solid rgba(200,169,106,.18);
+padding: .8rem 0;
+}
 
-		.feature-list li:first-child {
-			border-top: 0;
-		}
+.feature-list li:first-child {
+border-top: 0;
+}
 
-		.tagline {
-			color: var(--gold-bright) !important;
-			text-transform: uppercase;
-			letter-spacing: .26em;
-			font-size: .9rem;
-		}
+.tagline {
+color: var(--gold-bright) !important;
+text-transform: uppercase;
+letter-spacing: .26em;
+font-size: .9rem;
+}
 
-		@media screen and (max-width: 736px) {
-			h1 {
-				font-size: 2.45rem !important;
-			}
+@media screen and (max-width: 736px) {
+h1 {
+font-size: 2.45rem !important;
+}
 
-			#header .content .inner {
-				padding: 2.25rem 1.5rem;
-			}
-		}
+#header .content .inner {
+padding: 2.25rem 1.5rem;
+}
+}
 /* Kill the template fake icon */
 #header .logo:before {
-	display: none !important;
-	content: none !important;
+display: none !important;
+content: none !important;
 }
 
 /* Remove circle styling */
 #header .logo {
-	border: none !important;
-	background: transparent !important;
-	box-shadow: none !important;
-	width: auto !important;
-	height: auto !important;
-	padding: 0 !important;
+border: none !important;
+background: transparent !important;
+box-shadow: none !important;
+width: auto !important;
+height: auto !important;
+padding: 0 !important;
 }
 
 /* Show your logo properly */
 #header .logo img {
-	display: block !important;
-	max-width: 90px;
-	height: auto;
-	margin: 0 auto;
-	filter: drop-shadow(0 0 10px rgba(200,169,106,0.35));
+display: block !important;
+max-width: 90px;
+height: auto;
+margin: 0 auto;
+filter: drop-shadow(0 0 10px rgba(200,169,106,0.35));
 }	
 /* Drink Menu */
 
 .menu-intro {
-  color: rgba(255,255,255,0.75);
-  margin-bottom: 2rem;
-  font-size: 0.95rem;
+color: rgba(255,255,255,0.75);
+margin-bottom: 2rem;
+font-size: 0.95rem;
 }
 
 .drink-list {
-  display: flex;
-  flex-direction: column;
-  gap: 1.5rem;
+display: flex;
+flex-direction: column;
+gap: 1.5rem;
 }
 
 .drink-item {
-  border-bottom: 1px solid rgba(212,175,55,0.25);
-  padding-bottom: 0.75rem;
+border-bottom: 1px solid rgba(212,175,55,0.25);
+padding-bottom: 0.75rem;
 }
 
 .drink-item h3 {
-  margin: 0;
-  font-size: 1rem;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-  color: #d4af37;
+margin: 0;
+font-size: 1rem;
+letter-spacing: 0.12em;
+text-transform: uppercase;
+color: #d4af37;
 }
 
 .drink-item span {
-  font-size: 0.85rem;
-  color: rgba(255,255,255,0.7);
-  letter-spacing: 0.05em;
+font-size: 0.85rem;
+color: rgba(255,255,255,0.7);
+letter-spacing: 0.05em;
 }
 
 .drink-item.highlight h3 {
-  color: #ffffff;
+color: #ffffff;
 }
 
 .drink-item.highlight span {
-  color: rgba(212,175,55,0.8);
+color: rgba(212,175,55,0.8);
 }
-		
-	</style>
+
+</style>
 </head>
 
 <body class="is-preload">
 
-	<div id="wrapper">
+<div id="wrapper">
 
-		<header id="header">
-			<div class="logo">
-				<img src="images/logo.png" alt="The Eight One Nine Logo" />
-			</div>
+<header id="header">
+<div class="logo">
+<img src="images/logo.png" alt="The Eight One Nine Logo" />
+</div>
 
-			<div class="content">
-				<div class="inner">
-					<h1>The Eight<br />One Nine</h1>
-				<!--	<p class="tagline">Good Times With Better People.</p> -->
-					<p class="july4-note">Independence Day Edition • Good Drinks • Great People • Questionable Decisions</p>
-				</div>
-			</div>
+<div class="content">
+<div class="inner">
+<h1>The Eight<br />One Nine</h1>
+<!--	<p class="tagline">Good Times With Better People.</p> -->
+<p class="july4-note">Independence Day Edition • Good Drinks • Great People • Questionable Decisions</p>
+</div>
+</div>
 
-			<nav>
-				<ul>
-					<li><a href="#menu">Drink Menu</a></li>
-					<li><a href="#merch">Merch</a></li>
-					<li><a href="#members">Members Only</a></li>
-					<li><a href="#about">About</a></li>
-					<li><a href="#tips">Tips</a></li>
-				</ul>
-			</nav>
-		</header>
+<nav>
+<ul>
+<li><a href="#menu">Drink Menu</a></li>
+<li><a href="#merch">Merch</a></li>
+<li><a href="#members">Members Only</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#tips">Tips</a></li>
+</ul>
+</nav>
+</header>
 
-		<div id="main">
+<div id="main">
 
-			<article id="about">
-				<h2 class="major">The 819</h2>
-				<span class="image main"><img src="images/819.jpg" alt="The Eight One Nine" /></span>
-				<h3>Private Location • By Invitation Only</h3>
+<article id="about">
+<h2 class="major">The 819</h2>
+<span class="image main"><img src="images/819.jpg" alt="The Eight One Nine" /></span>
+<h3>Private Location • By Invitation Only</h3>
 
 <p><strong>Not Just a Bar.</strong></p>
 <p>The Eight One Nine isn’t something you just walk into — and that’s by design. Good energy only. Great company required.</p>
@@ -327,42 +326,50 @@
 <p>It didn’t stay simple.</p>
 <p>There’s a door. If you know, you know. And if it’s your first time, you sign it.</p>
 <p>After that, you’re part of the story — whether you meant to be or not.</p>
-				</article>
+</article>
 
 <article id="menu">
+  <h2 class="major">Independence Day Edition<br/>Drink Menu</h2>
   <h2 class="major">Independence Day<br>Drink Menu</h2>
 
-  <p class="menu-intro">
+<p class="menu-intro">
+    Keeping it simple tonight with three Eight One Nine favorites. Handcrafted, ice cold, and perfect for celebrating another trip around the sun.
     Three handcrafted favorites chosen for a perfect Fourth of July evening. Simple, timeless, and best enjoyed with good friends and great stories.
-  </p>
+</p>
 
-  <div class="drink-list">
+<div class="drink-list">
 
-    <div class="drink-item">
-      <h3>819 Old Fashioned</h3>
+<div class="drink-item">
+<h3>819 Old Fashioned</h3>
       <small>House Favorite</small>
-      <span>
+<span>
+        A smooth pour of bourbon stirred with bitters and pure maple syrup, then finished with an orange twist.
+        Rich, bold, and the perfect way to start—or end—the evening.
         Bourbon, aromatic bitters, pure maple syrup, and an orange twist. Bold, smooth, and made for watching fireworks long after the sun goes down.
-      </span>
-    </div>
+</span>
+</div>
 
-    <div class="drink-item">
-      <h3>Ranch Water</h3>
+<div class="drink-item">
+<h3>Ranch Water</h3>
       <small>Summer Classic</small>
-      <span>
-        Blanco tequila, fresh lime, and crisp Lime Liquid Death. Clean and refreshing.
-      </span>
-    </div>
+<span>
+        Blanco tequila, fresh lime, and crisp Topo Chico.
+        Clean, refreshing, and made for warm summer nights and backyard conversations that last longer than planned.
+        Blanco tequila, fresh lime, and crisp Topo Chico. Clean, refreshing, and the perfect companion for a warm summer afternoon.
+</span>
+</div>
 
-    <div class="drink-item highlight">
-      <h3>Classic Margarita</h3>
+<div class="drink-item highlight">
+<h3>Classic Margarita</h3>
       <small>Fourth of July Favorite</small>
-   
-       Bright, refreshing, and always worth celebrating.
-   
-    </div>
+<span>
+        Premium tequila, fresh lime juice, and triple sec, shaken ice cold and served with a salted rim.
+        Bright, citrusy, and a Fourth of July favorite that never disappoints.
+        Premium tequila, fresh lime juice, and triple sec, shaken ice cold and served with a salted rim. Bright, refreshing, and always worth celebrating.
+</span>
+</div>
 
-  </div>
+</div>
 
   <hr>
 
@@ -372,122 +379,122 @@
 
 </article>
 <article id="merch">
-  <h2 class="major">Merch</h2>
-  <p class="merch-intro">
-    Limited gear from The Eight One Nine. Built for regulars, legends, and people who know better than to leave early.
-  </p>
+<h2 class="major">Merch</h2>
+<p class="merch-intro">
+Limited gear from The Eight One Nine. Built for regulars, legends, and people who know better than to leave early.
+</p>
 
-  <div class="merch-grid">
-    <a class="merch-card" href="https://www.amazon.com/dp/B0GYZY12TZ" target="_blank" rel="noopener">
-      <img src="images/snakebit.jpg" alt="Snake bit shirt">
-      <div class="merch-info">
-        <h3>Snake bit</h3>
-        <span>View on Amazon</span>
-      </div>
-    </a>
-    <a class="merch-card" href="https://www.amazon.com/dp/B0GYZZFX2R?customId=B0CGBRQFM2" target="_blank" rel="noopener">
-      <img src="images/snakebit_crop.jpg" alt="The Eight One Nine Tiger shirt">
-      <div class="merch-info">
-        <h3>Snake bit - crop</h3>
-        <span>View on Amazon</span>
-      </div>
-    </a>
-	  
-    <a class="merch-card" href="https://www.amazon.com/dp/B0FD85CWC8" target="_blank" rel="noopener">
-      <img src="images/tiger.jpg" alt="The Eight One Nine Tiger shirt">
-      <div class="merch-info">
-        <h3>Eye of the 819 Tiger</h3>
-        <span>View on Amazon</span>
-      </div>
-    </a>
+<div class="merch-grid">
+<a class="merch-card" href="https://www.amazon.com/dp/B0GYZY12TZ" target="_blank" rel="noopener">
+<img src="images/snakebit.jpg" alt="Snake bit shirt">
+<div class="merch-info">
+<h3>Snake bit</h3>
+<span>View on Amazon</span>
+</div>
+</a>
+<a class="merch-card" href="https://www.amazon.com/dp/B0GYZZFX2R?customId=B0CGBRQFM2" target="_blank" rel="noopener">
+<img src="images/snakebit_crop.jpg" alt="The Eight One Nine Tiger shirt">
+<div class="merch-info">
+<h3>Snake bit - crop</h3>
+<span>View on Amazon</span>
+</div>
+</a>
 
-    <a class="merch-card" href="https://www.amazon.com/dp/B0GYKS3BWM" target="_blank" rel="noopener">
-      <img src="images/drunks.jpg" alt="The Eight One Nine Drunks shirt">
-      <div class="merch-info">
-        <h3>I'm one of the Drunks!</h3>
-        <span>View on Amazon</span>
-      </div>
-    </a>
+<a class="merch-card" href="https://www.amazon.com/dp/B0FD85CWC8" target="_blank" rel="noopener">
+<img src="images/tiger.jpg" alt="The Eight One Nine Tiger shirt">
+<div class="merch-info">
+<h3>Eye of the 819 Tiger</h3>
+<span>View on Amazon</span>
+</div>
+</a>
 
-    <a class="merch-card" href="https://www.amazon.com/dp/B0FD6QH1JX" target="_blank" rel="noopener">
-      <img src="images/retro.jpg" alt="The Eight One Nine Retro shirt">
-      <div class="merch-info">
-        <h3>If the 819 was EST. in the 80s</h3>
-        <span>View on Amazon</span>
-      </div>
-    </a>
+<a class="merch-card" href="https://www.amazon.com/dp/B0GYKS3BWM" target="_blank" rel="noopener">
+<img src="images/drunks.jpg" alt="The Eight One Nine Drunks shirt">
+<div class="merch-info">
+<h3>I'm one of the Drunks!</h3>
+<span>View on Amazon</span>
+</div>
+</a>
 
-    <a class="merch-card" href="https://www.amazon.com/dp/B0C7D4MDZF" target="_blank" rel="noopener">
-      <img src="images/stars-and-stripes.jpg" alt="The Eight One Nine Flag shirt">
-      <div class="merch-info">
-        <h3>Red, white and drink!</h3>
-        <span>View on Amazon</span>
-      </div>
-    </a>
+<a class="merch-card" href="https://www.amazon.com/dp/B0FD6QH1JX" target="_blank" rel="noopener">
+<img src="images/retro.jpg" alt="The Eight One Nine Retro shirt">
+<div class="merch-info">
+<h3>If the 819 was EST. in the 80s</h3>
+<span>View on Amazon</span>
+</div>
+</a>
 
-    <a class="merch-card" href="https://www.amazon.com/dp/B0B8MC58XB" target="_blank" rel="noopener">
-      <img src="images/original.webp" alt="The Eight One Nine Original shirt">
-      <div class="merch-info">
-        <h3>There can only be one original</h3>
-        <span>View on Amazon</span>
-      </div>
-    </a>
+<a class="merch-card" href="https://www.amazon.com/dp/B0C7D4MDZF" target="_blank" rel="noopener">
+<img src="images/stars-and-stripes.jpg" alt="The Eight One Nine Flag shirt">
+<div class="merch-info">
+<h3>Red, white and drink!</h3>
+<span>View on Amazon</span>
+</div>
+</a>
 
-    <a class="merch-card" href="https://www.amazon.com/dp/B0D86B38DR" target="_blank" rel="noopener">
-      <img src="images/cracked-flag.jpg" alt="The Eight One Nine Cracked Flag shirt">
-      <div class="merch-info">
-        <h3>Tough times = tougher people</h3>
-        <span>View on Amazon</span>
-      </div>
-    </a>
+<a class="merch-card" href="https://www.amazon.com/dp/B0B8MC58XB" target="_blank" rel="noopener">
+<img src="images/original.webp" alt="The Eight One Nine Original shirt">
+<div class="merch-info">
+<h3>There can only be one original</h3>
+<span>View on Amazon</span>
+</div>
+</a>
 
-  </div>
+<a class="merch-card" href="https://www.amazon.com/dp/B0D86B38DR" target="_blank" rel="noopener">
+<img src="images/cracked-flag.jpg" alt="The Eight One Nine Cracked Flag shirt">
+<div class="merch-info">
+<h3>Tough times = tougher people</h3>
+<span>View on Amazon</span>
+</div>
+</a>
+
+</div>
 </article>
 <article id="members">
-				<h2 class="major">Members Only</h2>
-				<h3>Earned. Not Given.</h3>
-				<span class="image main" style="text-align:center;">
-				  <img src="images/members-only-card.png" alt="Eight One Nine Members Only Card" style="max-width:300px; width:100%;">
-				</span>
-				<p>Welcome to the Inner Circle — a place reserved for the people who make the nights worth retelling.</p>
-				<p>Do you have a Members Only card? Did you even know there was one?</p>
-				<p>The criteria exists, but it is not written down. Few know it. Even fewer qualify.</p>
-				<p>If you have one, welcome. If you don’t, keep showing up. The card eventually finds you.</p>
-				<p>You cannot ask for it. You cannot buy it. You earn it.</p>
-	<p>Earned. Not Given.</p>
-			</article>
+<h2 class="major">Members Only</h2>
+<h3>Earned. Not Given.</h3>
+<span class="image main" style="text-align:center;">
+<img src="images/members-only-card.png" alt="Eight One Nine Members Only Card" style="max-width:300px; width:100%;">
+</span>
+<p>Welcome to the Inner Circle — a place reserved for the people who make the nights worth retelling.</p>
+<p>Do you have a Members Only card? Did you even know there was one?</p>
+<p>The criteria exists, but it is not written down. Few know it. Even fewer qualify.</p>
+<p>If you have one, welcome. If you don’t, keep showing up. The card eventually finds you.</p>
+<p>You cannot ask for it. You cannot buy it. You earn it.</p>
+<p>Earned. Not Given.</p>
+</article>
 
 <article id="tips">
-  <h2 class="major">Tips</h2>
-				<span class="image main" style="text-align:center;">
-				  <img src="images/coaster.png" alt="Eight One Nine coaster" style="max-width:300px; width:100%;">
-				</span>
-  <p>If you thought this was where we ask for a tip, it’s not that kind of bar.</p>
+<h2 class="major">Tips</h2>
+<span class="image main" style="text-align:center;">
+<img src="images/coaster.png" alt="Eight One Nine coaster" style="max-width:300px; width:100%;">
+</span>
+<p>If you thought this was where we ask for a tip, it’s not that kind of bar.</p>
 
-  <p>Having you here is the good part. Sharing a drink and staying later than planned — that’s the whole point (unless "Closing Time" comes on, and then you stayed TOO long and it's time to leave lol).</p>	
+<p>Having you here is the good part. Sharing a drink and staying later than planned — that’s the whole point (unless "Closing Time" comes on, and then you stayed TOO long and it's time to leave lol).</p>	
 
-  <p>We don’t even take a profit on the merch, so we’re definitely not passing around a tip jar.</p>
+<p>We don’t even take a profit on the merch, so we’re definitely not passing around a tip jar.</p>
 
-  <p>Quality people are rare, and to us, that's exactly what you are.</p>
+<p>Quality people are rare, and to us, that's exactly what you are.</p>
 
-  <p>So thanks for giving us your time and helping create new stories, some of which will no doubt become part of the 819 legend.</p>
+<p>So thanks for giving us your time and helping create new stories, some of which will no doubt become part of the 819 legend.</p>
 </article>
-		
-		</div>
 
-		<footer id="footer">
-			<p class="copyright">&copy; 2026 The Eight One Nine. Private Location. By Invitation Only.</p>
-		</footer>
+</div>
 
-	</div>
+<footer id="footer">
+<p class="copyright">&copy; 2026 The Eight One Nine. Private Location. By Invitation Only.</p>
+</footer>
 
-	<div id="bg"></div>
+</div>
 
-	<script src="assets/js/jquery.min.js"></script>
-	<script src="assets/js/browser.min.js"></script>
-	<script src="assets/js/breakpoints.min.js"></script>
-	<script src="assets/js/util.js"></script>
-	<script src="assets/js/main.js"></script>
+<div id="bg"></div>
+
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/browser.min.js"></script>
+<script src="assets/js/breakpoints.min.js"></script>
+<script src="assets/js/util.js"></script>
+<script src="assets/js/main.js"></script>
 
 </body>
 </html>
