@@ -108,6 +108,47 @@ button:hover {
   text-transform: uppercase;
   text-align: center;
 }
+/* Force July 4 theme overrides */
+
 body {
-  outline: 10px solid red !important;
+  background: #050505 !important;
+}
+
+#bg:before {
+  background-image:
+    linear-gradient(rgba(0, 40, 104, 0.55), rgba(191, 10, 48, 0.45)),
+    url("../../images/bg.jpg") !important;
+}
+
+#bg:after {
+  background:
+    radial-gradient(circle at top left, rgba(191, 10, 48, 0.55), transparent 35%),
+    radial-gradient(circle at bottom right, rgba(0, 40, 104, 0.65), transparent 40%),
+    rgba(0, 0, 0, 0.35) !important;
+}
+
+#header .content,
+article {
+  border-color: rgba(255, 255, 255, 0.35) !important;
+  box-shadow:
+    0 0 22px rgba(191, 10, 48, 0.35),
+    0 0 34px rgba(0, 40, 104, 0.35) !important;
+}
+
+#header h1,
+h2.major,
+h3 {
+  color: #ffffff !important;
+  text-shadow:
+    0 0 10px rgba(191, 10, 48, 0.8),
+    0 0 18px rgba(0, 40, 104, 0.8) !important;
+}
+
+h2.major:after {
+  background: linear-gradient(90deg, #bf0a30, #ffffff, #002868) !important;
+}
+
+#header nav ul li a:hover,
+.button:hover {
+  background: rgba(191, 10, 48, 0.25) !important;
 }
