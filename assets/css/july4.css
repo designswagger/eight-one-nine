@@ -1,94 +1,107 @@
-/* The Eight One Nine - Bold Independence Day Theme */
+/* The Eight One Nine - Clearly Patriotic July 4 Theme */
 
+html,
 body {
-  background: #050505 !important;
+  background: #061a40 !important;
 }
-
 
 #bg,
 #bg:before,
 #bg:after {
-  background-image: none !important;
   background: none !important;
+  background-image: none !important;
+  opacity: 1 !important;
 }
 
 #bg {
   background:
-    linear-gradient(115deg,
-      rgba(0,40,104,.85) 0%,
-      rgba(0,40,104,.75) 28%,
-      rgba(255,255,255,.12) 48%,
-      rgba(191,10,48,.78) 72%,
-      rgba(191,10,48,.9) 100%
+    linear-gradient(
+      135deg,
+      #002868 0%,
+      #002868 28%,
+      #ffffff 28%,
+      #ffffff 34%,
+      #bf0a30 34%,
+      #bf0a30 62%,
+      #050505 62%,
+      #050505 100%
     ) !important;
 }
 
-/* Big patriotic glow */
+/* Put a subtle dark layer over the flag colors */
+#wrapper {
+  background: rgba(0, 0, 0, 0.28) !important;
+}
+
+/* Header panel */
 #header .content {
-  border: 1px solid rgba(255,255,255,.7) !important;
   background:
-    linear-gradient(135deg, rgba(0,40,104,.35), rgba(0,0,0,.82), rgba(191,10,48,.35)) !important;
+    linear-gradient(
+      135deg,
+      rgba(0, 40, 104, 0.65),
+      rgba(0, 0, 0, 0.88),
+      rgba(191, 10, 48, 0.65)
+    ) !important;
+  border: 2px solid rgba(255, 255, 255, 0.75) !important;
   box-shadow:
-    0 0 35px rgba(255,255,255,.25),
-    0 0 55px rgba(191,10,48,.55),
-    0 0 75px rgba(0,40,104,.55) !important;
-}
-
-/* Title */
-#header h1 {
-  color: #fff !important;
-  text-shadow:
-    0 0 8px rgba(255,255,255,.8),
-    0 0 18px rgba(191,10,48,.9),
-    0 0 32px rgba(0,40,104,.9) !important;
-}
-
-/* Subtitle */
-#header p {
-  color: #fff !important;
-  font-weight: 600;
+    0 0 35px rgba(255, 255, 255, 0.25),
+    0 0 55px rgba(191, 10, 48, 0.7),
+    0 0 70px rgba(0, 40, 104, 0.7) !important;
 }
 
 /* Logo */
 #header .logo {
-  border-color: #fff !important;
+  border-color: #ffffff !important;
   box-shadow:
-    0 0 18px rgba(255,255,255,.45),
-    0 0 28px rgba(191,10,48,.65),
-    0 0 38px rgba(0,40,104,.65) !important;
+    0 0 15px rgba(255,255,255,.6),
+    0 0 25px rgba(191,10,48,.7),
+    0 0 35px rgba(0,40,104,.7) !important;
+}
+
+/* Title */
+#header h1 {
+  color: #ffffff !important;
+  text-shadow:
+    0 0 8px rgba(255,255,255,.9),
+    0 0 18px rgba(191,10,48,.95),
+    0 0 32px rgba(0,40,104,.95) !important;
+}
+
+/* Subtitle */
+#header p {
+  color: #ffffff !important;
 }
 
 /* Nav */
 #header nav ul li a {
-  color: #fff !important;
-  border-color: rgba(255,255,255,.7) !important;
-  background: rgba(0,0,0,.25) !important;
+  color: #ffffff !important;
+  border-color: rgba(255,255,255,.75) !important;
+  background: rgba(0,0,0,.35) !important;
 }
 
-#header nav ul li:nth-child(odd) a:hover {
-  background: rgba(191,10,48,.45) !important;
+#header nav ul li a:hover {
+  background: linear-gradient(
+    90deg,
+    rgba(191,10,48,.65),
+    rgba(0,40,104,.65)
+  ) !important;
 }
 
-#header nav ul li:nth-child(even) a:hover {
-  background: rgba(0,40,104,.55) !important;
-}
-
-/* Articles */
+/* Pop-up article panels */
 article {
-  border: 1px solid rgba(255,255,255,.5) !important;
   background:
-    linear-gradient(135deg, rgba(0,40,104,.18), rgba(0,0,0,.86), rgba(191,10,48,.18)) !important;
+    linear-gradient(
+      135deg,
+      rgba(0,40,104,.38),
+      rgba(0,0,0,.9),
+      rgba(191,10,48,.38)
+    ) !important;
+  border: 1px solid rgba(255,255,255,.6) !important;
   box-shadow:
-    0 0 30px rgba(191,10,48,.35),
-    0 0 45px rgba(0,40,104,.35) !important;
+    0 0 30px rgba(191,10,48,.45),
+    0 0 45px rgba(0,40,104,.45) !important;
 }
 
-/* Section headings */
 h2.major:after {
   background: linear-gradient(90deg, #bf0a30, #ffffff, #002868) !important;
-}
-
-/* Footer */
-#footer .copyright {
-  color: rgba(255,255,255,.65) !important;
 }
