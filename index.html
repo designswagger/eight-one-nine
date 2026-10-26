@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>The Eight One Nine</title>
+<title>The 819 Cantina | Halloween 2026</title>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 
@@ -281,6 +281,40 @@ color: #ffffff;
 color: rgba(212,175,55,0.8);
 }
 
+
+/* HALLOWEEN 2026: THE 819 CANTINA */
+:root { --gold:#e6b45d; --gold-bright:#ffd88d; --muted:#d0c3af; }
+body { background:#06090d !important; }
+body:before { background:rgba(2,6,10,.72) !important; }
+#bg:after { background:linear-gradient(145deg,rgba(3,8,15,.96),rgba(20,10,7,.86)) !important; }
+#bg:before { background:radial-gradient(circle at 55% 30%,rgba(221,116,36,.22),transparent 48%),radial-gradient(circle at 15% 85%,rgba(101,22,19,.17),transparent 55%) !important; }
+h1,h2,h3,.major { font-family:Arial,Helvetica,sans-serif !important; font-weight:800 !important; letter-spacing:.11em !important; }
+#header h1 { font-size:clamp(2.3rem,7vw,4.3rem) !important; text-shadow:0 0 22px rgba(233,139,53,.38); }
+#header .content { background:rgba(6,12,19,.78); border-color:rgba(230,180,93,.6) !important; }
+#header nav ul { background:rgba(8,14,22,.85); }
+#main article { background:rgba(8,14,21,.97) !important; border:1px solid rgba(230,180,93,.5); box-shadow:0 0 45px rgba(0,0,0,.9),inset 0 0 30px rgba(230,110,38,.04); }
+.cantina-eyebrow { color:var(--gold-bright) !important; font-size:.7rem !important; letter-spacing:.27em; text-transform:uppercase; margin:0 0 1rem; }
+.cantina-tagline { color:#e9d6b3 !important; text-transform:uppercase; font-size:.8rem !important; letter-spacing:.12em; }
+.cantina-menu .menu-intro { color:#e4d7c6 !important; font-size:1rem; }
+.cantina-status { border:1px solid rgba(230,180,93,.42); background:rgba(230,180,93,.07); padding:.75rem 1rem; margin:0 0 2rem; font-size:.7rem; letter-spacing:.13em; color:var(--gold-bright); font-weight:bold; }
+.status-dot { display:inline-block; height:8px; width:8px; border-radius:50%; background:#8bdb9b; box-shadow:0 0 9px #8bdb9b; margin-right:.4rem; }
+.status-code { float:right; opacity:.7; }
+.cantina-menu .drink-list { gap:0; }
+.cantina-menu .drink-item { padding:1.15rem 0; border-bottom:1px solid rgba(230,180,93,.25); }
+.cantina-menu .drink-item small { display:block; color:#a89d8d; font-size:.64rem; letter-spacing:.2em; margin-bottom:.45rem; }
+.cantina-menu .drink-item h3 { color:var(--gold-bright) !important; font-size:1.1rem; margin:0 0 .35rem; }
+.cantina-menu .drink-item span { display:block; color:#d3c7b9; font-size:.9rem; line-height:1.65; }
+.cantina-menu .drink-item.highlight { padding-left:1rem; border-left:3px solid #bf583e; background:linear-gradient(90deg,rgba(156,54,35,.13),transparent); }
+.late-night-warning { margin-top:2.5rem; padding:1.4rem; border:1px solid #a64b39; background:linear-gradient(135deg,rgba(85,18,19,.34),rgba(14,10,14,.8)); }
+.late-night-warning .warning-heading { color:#ff9b7c; font-size:.72rem; letter-spacing:.14em; font-weight:bold; }
+.late-night-warning h3 { color:#ffc2a0 !important; margin:1rem 0; }
+.late-night-warning p { color:#ead7d0 !important; margin-bottom:.7rem; }
+.late-night-warning strong { color:#ffbd94; }
+.late-night-warning .warning-footer { font-size:.65rem; letter-spacing:.18em; color:#c89080 !important; margin-top:1.4rem; }
+.cantina-signoff { text-align:center; margin-top:2rem; color:var(--gold-bright) !important; font-weight:bold; }
+.cantina-signoff span { display:block; font-weight:normal; font-size:.75rem; color:#aaa !important; }
+@media(max-width:480px) { .status-code { display:none; } .late-night-warning { padding:1rem; } }
+
 </style>
 </head>
 
@@ -295,9 +329,10 @@ color: rgba(212,175,55,0.8);
 
 <div class="content">
 <div class="inner">
-<h1>The Eight<br />One Nine</h1>
+<p class="cantina-eyebrow">Halloween 2026 · Outer Rim Outpost</p>
+<h1>The 819<br />Cantina</h1>
 <!--	<p class="tagline">Good Times With Better People.</p> -->
-<p class="july4-note">Independence Day Edition • Good Drinks • Great People • Questionable Decisions</p>
+<p class="cantina-tagline">A Wretched Hive of Good Drinks &amp; Questionable Decisions</p>
 </div>
 </div>
 
@@ -327,55 +362,20 @@ color: rgba(212,175,55,0.8);
 <p>After that, you’re part of the story — whether you meant to be or not.</p>
 </article>
 
-<article id="menu">
-<h2 class="major">Independence Day Edition<br/>Drink Menu</h2>
-<h2 class="major">Independence Day<br>Drink Menu</h2>
-
-<p class="menu-intro">
-Keeping it simple tonight with three Eight One Nine favorites. Handcrafted, ice cold, and perfect for celebrating another trip around the sun.
-Three handcrafted favorites chosen for a perfect Fourth of July evening. Simple, timeless, and best enjoyed with good friends and great stories.
-</p>
-
+<article id="menu" class="cantina-menu">
+<h2 class="major">Cantina Drink Menu</h2>
+<p class="menu-intro">Welcome, travelers. Whether you arrived by starship or stumbled in from the Outer Rim, the 819 Cantina has something to keep your hyperdrive running. Choose wisely. The night has a way of taking unexpected turns.</p>
+<div class="cantina-status"><span class="status-dot"></span> CANTINA STATUS: OPEN FOR BUSINESS <span class="status-code">// SECTOR 819</span></div>
 <div class="drink-list">
-
-<div class="drink-item">
-<h3>819 Old Fashioned</h3>
-<small>House Favorite</small>
-<span>
-A smooth pour of bourbon stirred with bitters and pure maple syrup, then finished with an orange twist.
-Rich, bold, and the perfect way to start—or end—the evening.
-Bourbon, aromatic bitters, pure maple syrup, and an orange twist. Bold, smooth, and made for watching fireworks long after the sun goes down.
-</span>
+<div class="drink-item"><small>01 // CANTINA FAVORITES</small><h3>Margaritas</h3><span>From classic to adventurous. A little tequila, a little lime, and just enough fuel to make the jump to hyperspace.</span></div>
+<div class="drink-item"><small>02 // GALACTIC SELECTION</small><h3>Wine</h3><span>Red or white. For the travelers who prefer to take the scenic route through the galaxy.</span></div>
+<div class="drink-item"><small>03 // DOCKING BAY ESSENTIALS</small><h3>Beer</h3><span>Cold, familiar, and ready for whatever this side of the galaxy throws at you.</span></div>
+<div class="drink-item"><small>04 // LIGHT-SPEED REFRESHMENTS</small><h3>Hard Seltzers</h3><span>Light, crisp, and easy to enjoy while you keep an eye out for stormtroopers.</span></div>
+<div class="drink-item highlight"><small>05 // RESTRICTED CARGO</small><h3>White Lightning</h3><span>A legendary 819 pour. Proceed with caution: the Empire does not accept responsibility for questionable decisions.</span></div>
+<div class="drink-item"><small>06 // HOUSE LEGENDS</small><h3>819 Classic Shots</h3><span>Old favorites, familiar trouble, and the kind of stories that become cantina legends. Ask your bartender what's available.</span></div>
 </div>
-
-<div class="drink-item">
-<h3>Ranch Water</h3>
-<small>Summer Classic</small>
-<span>
-Blanco tequila, fresh lime, and crisp Topo Chico.
-Clean, refreshing, and made for warm summer nights and backyard conversations that last longer than planned.
-Blanco tequila, fresh lime, and crisp Topo Chico. Clean, refreshing, and the perfect companion for a warm summer afternoon.
-</span>
-</div>
-
-<div class="drink-item highlight">
-<h3>Classic Margarita</h3>
-<small>Fourth of July Favorite</small>
-<span>
-Premium tequila, fresh lime juice, and triple sec, shaken ice cold and served with a salted rim.
-Bright, citrusy, and a Fourth of July favorite that never disappoints.
-Premium tequila, fresh lime juice, and triple sec, shaken ice cold and served with a salted rim. Bright, refreshing, and always worth celebrating.
-</span>
-</div>
-
-</div>
-
-<hr>
-
-<p style="text-align:center; opacity:.8;">
-<strong>Here's to freedom, friendship, and another unforgettable Fourth at The Eight One Nine.</strong>
-</p>
-
+<div class="late-night-warning"><div class="warning-heading">⚠ AFTER DARK // UNAUTHORIZED ACTIVITY</div><h3>When the Cantina Gets Darker...</h3><p>As the night gets later, nobody knows what might emerge from the shadows. And just like <em>Thriller</em>, the creatures of the night may come out to play.</p><p><strong>Rumor has it the Gargoyle Shots could make a return.</strong></p><p class="warning-footer">YOU HAVE BEEN WARNED · THE 819 CANTINA</p></div>
+<p class="cantina-signoff">May the pours be with you. <span>Drink responsibly, and arrange a safe ride home.</span></p>
 </article>
 <article id="merch">
 <h2 class="major">Merch</h2>
